@@ -9,7 +9,7 @@ import javax.swing.JWindow;
 public class btnCenter extends JWindow{
 
     public btnCenter(){
-        this.setSize(100, 50); 
+        this.setSize(100, 100); 
         this.setLayout(null);
         createBtn();
         adjustSize();
@@ -17,7 +17,7 @@ public class btnCenter extends JWindow{
 
     private void createBtn(){
         JButton boton = new JButton("Centrado");
-        boton.setBounds(0, 0, 100, 50);
+        boton.setBounds(0, 0, 100, 100);
         this.add(boton);
     }
 
